@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;600&family=Raleway&display=swap');
+
+section {
+    grid-column: 2/14;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    padding: 0px 40px;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 50%;
+}
+
+.content-box h1 {
+    font-size: 80px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    color: #BF5079;
+    text-align: start;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+}
+
+.content-box h1 span {
+    display: block;
+}
+
+.content-box h3 {
+    text-align: start;
+    color: #731A2B;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    max-width: 80%;
+    font-size: 23px;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+}
+
+.download-button {
+    border: none;
+    background-color: #731A2B;
+    color: white;
+    font-size: 28px;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 40px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+
+.card-box {
+    position: relative;
+    margin-right: 11rem;
+    opacity: 0;
+    transform: rotateY(-180deg);
+}
+
+.card {
+    background-color: #F2B6D2;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    position: relative;
+    z-index: 2;
+}
+
+.category-box {
+    scale: 0;
+    background-color: white;
+    position: absolute;
+    top: -3rem;
+    left: -9.6rem;
+    padding: 1.4rem 0.7rem;
+    border-radius: 1.5rem;
+    z-index: 3;
+}
+
+.category-title {
+    text-transform: uppercase;
+    font-family: "Lexend",sans-serif;
+    font-weight: 400;
+    color: #BF5079;
+    font-size: 20px;
+}
+
+.category-count {
+    font-family: "Lexend" , sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #BF5079;
+}
+
+.watchlist-box {
+    scale: 0;
+    background-color: white;
+    position: absolute;
+    top: 15rem;
+    left: -11.4rem;
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+    z-index: 1;
+}
+
+.watchlist-title {
+    color: #BF5079;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+}
+
+.watchlist-count {
+    font-family: "Lexend" , sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #BF5079;
+}
+
+.watchlist-para {
+    color: #BF5079;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+}
+
+.leaf {
+    scale: 0;
+    max-width: 13rem;
+    max-height: 13rem;
+    position: absolute;
+    top: -7rem;
+    right: -6rem;
+    transform: rotate(35deg);
+}
+
+.groove {
+    scale: 0;
+    position: absolute;
+    left: 0rem;
+    margin: 10px;
+    color: #BF5079;
+    font-family: "Lexend",sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.add-icon {
+    scale: 0;
+    background-color: white;
+    position: absolute;
+    top: 5rem;
+    right: -1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: #BF5079;
+    z-index: 3;
+}
+
+.approved-icon {
+    scale: 0;
+    position: absolute;
+    top: 10rem;
+    right: -8rem;
+    border: 2px solid #05B70C;
+    border-radius: 30px;
+    padding: 0px 10px;
+    font-family: "Lexend",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #DEFFDE;
+    color: #05B70C;
+    text-transform: uppercase;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.circle {
+    scale: 0;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #731A2B;
+    position: absolute;
+    bottom: -4rem;
+    right: -4rem;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.watchnow-btn {
+    scale: 0;
+    position: absolute;
+    right: -4rem;
+    bottom: -1rem;
+    background-color: #BF5079;
+    padding: 15px 35px;
+    color: white;
+    border-radius: 40px;
+    text-transform: uppercase;
+    z-index: 3;
+}
